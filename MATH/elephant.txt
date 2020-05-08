@@ -1,0 +1,15 @@
+import java.io.*;
+public class elephant 
+{
+	public static void main(String args[])throws Exception
+	{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		int num=Integer.parseInt(br.readLine());
+		
+		int div=num/5;
+		if(num%5>0)
+			System.out.println((div+1));
+		else
+			System.out.println(div);
+	}
+}
