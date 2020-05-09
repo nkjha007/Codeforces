@@ -1,0 +1,15 @@
+import java.io.*;
+
+public class Calculating_function 
+{
+	public static void main(String args[])throws Exception
+	{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		long num=Long.parseLong(br.readLine());
+		
+		if(num%2==0)
+			System.out.println((num/2));
+		else
+			System.out.println("-"+((num+1)/2));
+	}
+}
